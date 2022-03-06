@@ -11,10 +11,7 @@
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
 
 # ==========luci-theme-==========
-cd package/lean
-rm -rf luci-theme-argon
+cd feeds/luci/themes/
+rm -rf luci-theme-argon/
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git
 
-# ==========luci-app-==========
-cd ..
-svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash
